@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - BMSCE</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Merriweather', serif
+        }
+
+        body {
+            background: #fff;
+            color: #111
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(90deg, #4A4A4A, #6F8396);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 40px;
+        }
+
+        header h2 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white
+        }
+
+        header img {
+            width: 50px
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none
+        }
+
+        nav a:hover {
+            color: #EAE8D5
+        }
+
+        .container {
+            padding: 80px 60px;
+            max-width: 1000px;
+            margin: auto
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1)
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #6F8396;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/87/BMS_College_of_Engineering.svg">
+            B.M.S College of Engineering
+        </h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-btn">⬅ Back to Home</a>
+        <h1>Campus Life</h1>
+
+        <p>
+            Campus life at BMSCE is vibrant, inclusive, and full of opportunities for personal and professional growth.
+            The college offers a perfect balance between academics and extracurricular activities, ensuring students
+            enjoy a holistic learning experience.
+
+            The campus features modern infrastructure including well-equipped laboratories, libraries, hostels, sports
+            complexes, and recreational areas. Students can participate in various technical and cultural clubs such as
+            coding clubs, robotics teams, music groups, and drama societies.
+
+            Annual fests like Utsav and technical events attract participation from across the country, providing a
+            platform to showcase talent and creativity. The campus also promotes sports and fitness with facilities for
+            cricket, basketball, badminton, and indoor games.
+
+            With a safe and student-friendly environment, BMSCE ensures that every student feels engaged, motivated, and
+            inspired throughout their journey.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Clubs</h3>
+                <p>Technical & Cultural</p>
+            </div>
+            <div class="card">
+                <h3>Fests</h3>
+                <p>Utsav & Technical Events</p>
+            </div>
+            <div class="card">
+                <h3>Facilities</h3>
+                <p>Library, Hostel, Sports Complex</p>
+            </div>
+            <div class="card">
+                <h3>Environment</h3>
+                <p>Green & Student-Friendly Campus</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

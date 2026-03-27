@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - BMSCE</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Merriweather', serif
+        }
+
+        body {
+            background: #fff;
+            color: #111
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(90deg, #4A4A4A, #6F8396);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 40px;
+        }
+
+        header h2 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white
+        }
+
+        header img {
+            width: 50px
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none
+        }
+
+        nav a:hover {
+            color: #EAE8D5
+        }
+
+        .container {
+            padding: 80px 60px;
+            max-width: 1000px;
+            margin: auto
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1)
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #6F8396;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/87/BMS_College_of_Engineering.svg">
+            B.M.S College of Engineering
+        </h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-btn">⬅ Back to Home</a>
+        <h1>Research at BMSCE</h1>
+
+        <p>
+            B.M.S. College of Engineering fosters a strong research culture that encourages innovation, problem-solving,
+            and interdisciplinary collaboration. The institution houses multiple research centers across domains such as
+            Artificial Intelligence, Robotics, Biotechnology, Civil Infrastructure, and Renewable Energy. Faculty
+            members and students actively engage in funded research projects supported by government agencies like DST,
+            DRDO, and industry partners.
+
+            The college emphasizes publishing high-quality research in reputed journals such as IEEE, Springer, and
+            Elsevier. Students are encouraged to participate in research activities from early semesters, promoting
+            hands-on learning and critical thinking. Innovation and entrepreneurship are supported through incubation
+            centers, where students can transform their ideas into startups.
+
+            Workshops, conferences, and hackathons are regularly conducted to expose students to emerging technologies
+            and real-world challenges, making BMSCE a hub for research excellence.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Research Centers</h3>
+                <p>AI, Robotics, IoT, Structural Engineering</p>
+            </div>
+            <div class="card">
+                <h3>Funded Projects</h3>
+                <p>Government & Industry Sponsored</p>
+            </div>
+            <div class="card">
+                <h3>Publications</h3>
+                <p>IEEE, Springer, Scopus Indexed Journals</p>
+            </div>
+            <div class="card">
+                <h3>Innovation</h3>
+                <p>Startups & Incubation Support</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

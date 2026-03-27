@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - BMSCE</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Merriweather', serif
+        }
+
+        body {
+            background: #fff;
+            color: #111
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(90deg, #4A4A4A, #6F8396);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 40px;
+        }
+
+        header h2 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white
+        }
+
+        header img {
+            width: 50px
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none
+        }
+
+        nav a:hover {
+            color: #EAE8D5
+        }
+
+        .container {
+            padding: 80px 60px;
+            max-width: 1000px;
+            margin: auto
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #eee;
+            background: #fafafa;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1)
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #6F8396;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/87/BMS_College_of_Engineering.svg">
+            B.M.S College of Engineering
+        </h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-btn">⬅ Back to Home</a>
+        <h1>Placements</h1>
+
+        <p>
+            BMSCE has an excellent placement record, making it one of the top engineering colleges in India. The
+            dedicated placement cell works closely with leading companies to provide students with career opportunities
+            in various sectors.
+
+            More than 300–350 companies visit the campus every year, including top recruiters like Microsoft, Amazon,
+            Infosys, Wipro, and Accenture. Students receive offers in diverse roles such as software development, data
+            analysis, core engineering, and consulting.
+
+            The college provides comprehensive training programs including aptitude tests, technical skills, mock
+            interviews, and resume building workshops. Internship opportunities further help students gain industry
+            exposure before graduation.
+
+            With strong industry connections and consistent placement performance, BMSCE ensures that students are
+            well-prepared for successful careers.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Companies</h3>
+                <p>350+ recruiters</p>
+            </div>
+            <div class="card">
+                <h3>Top Packages</h3>
+                <p>High CTC offers</p>
+            </div>
+            <div class="card">
+                <h3>Training</h3>
+                <p>Aptitude & Technical Training</p>
+            </div>
+            <div class="card">
+                <h3>Internships</h3>
+                <p>Industry exposure</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

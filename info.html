@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Science Department - BMSCE</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* NAVBAR */
+        header {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(90deg, #4A4A4A, #6F8396);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            z-index: 1000;
+        }
+
+        header h2 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+        }
+
+        header img {
+            width: 35px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #EAE8D5;
+        }
+
+        .btn {
+            background: white;
+            color: black;
+            padding: 10px 18px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* BODY */
+        body {
+            background: #f9f9f9;
+        }
+
+        /* CONTENT WRAPPER */
+        .container {
+            padding: 40px 60px;
+        }
+
+        /* BACK BUTTON */
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #6F8396;
+            font-weight: 600;
+        }
+
+        /* HEADINGS */
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        /* SECTION CARDS */
+        .section {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: 0.3s;
+        }
+
+        .section:hover {
+            transform: translateY(-3px);
+        }
+
+        /* TEXT */
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* LIST */
+        ul {
+            padding-left: 20px;
+            color: #555;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width:768px) {
+            header {
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/87/BMS_College_of_Engineering.svg">
+            BMSCE
+        </h2>
+
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="about.html">About</a>
+            <a href="index.html#departments">Departments</a>
+            <a href="index.html#placements">Placements</a>
+            <a href="index.html#founders">Founders</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+
+        <a href="index.html#departments" class="back-btn">← Back to Departments</a>
+
+        <h1>Information Science and Engineering</h1>
+
+        <div class="section">
+            <h2>About</h2>
+            <p>The Department of Information Science and Engineering focuses on cutting-edge technologies including
+                Artificial Intelligence, Machine Learning, Data Science, and Software Development.</p>
+        </div>
+
+        <div class="section">
+            <h2>Vision</h2>
+            <p>To become a center of excellence in Information Science education, research, and innovation.</p>
+        </div>
+
+        <div class="section">
+            <h2>Programs</h2>
+            <ul>
+                <li>B.E in Information Science Engineering</li>
+                <li>M.Tech in Information Science</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Curriculum</h2>
+            <p>Covers data structures, databases, software engineering, and networking..</p>
+        </div>
+
+        <div class="section">
+            <h2>Faculty</h2>
+            <p>Highly qualified professors with expertise in various domains of Information Science.</p>
+        </div>
+
+        <div class="section">
+            <h2>Labs</h2>
+            <p>AI Lab, Networking Lab, Data Science Lab, Software Engineering Lab.</p>
+        </div>
+
+        <div class="section">
+            <h2>Research</h2>
+            <p>Focus on data science, cloud computing, and cybersecurity.</p>
+        </div>
+
+        <div class="section">
+            <h2>Achievements</h2>
+            <p>Top placements, national-level hackathon winners, and research publications.</p>
+        </div>
+
+        <div class="section">
+            <h2>HOD: Dr. M K Nalini</h2>
+            <h2>HOD Contact</h2>
+            <p>Email: hodise@bmsce.ac.in</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
